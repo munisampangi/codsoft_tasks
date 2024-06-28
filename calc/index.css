@@ -1,0 +1,64 @@
+body{
+    margin:0;
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color:rgb(44, 42, 42);
+}
+#main-container{
+    width:500px;
+    padding-top:20px;
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(97, 97, 218);
+    border-radius: 10px;
+    margin-top:5%;
+    
+    
+    
+}
+
+#display{
+     width:80%;
+     background-color: rgb(8, 8, 22);
+     text-align:right;
+     padding:15px;
+     border-radius:10px;
+     color:white;
+     font-size:40px;
+     font-style:oblique;
+     align-self:center;
+
+}
+.button-cal{
+    color:red;
+    width:60px;
+    height:50px;
+    border-radius:50%;
+    border:none;
+    cursor:pointer;
+    background-color:rgba(244, 209, 12, 0.991);
+    font-size:20px;
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+    
+    /* background-color: rgb(76, 76, 238); */
+    border-radius:10px;
+    padding:20px;
+    width:500px;
+
+}
+.numbers{
+    font-size:28px;
+}
+.result{
+    background-color:rgb(12, 243, 8);
+    border:none;
+    outline:none;
+    font-size:24px;
+}
